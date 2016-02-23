@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/gdata-client-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/gdata-core-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/gdata-media-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/gdata-youtube-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/google-collect-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/additionnal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/libs/google-api-client-1.10.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/darshanr/Eclipseworkspace/YouTube/assets/openyoutubeactivity-1.1.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

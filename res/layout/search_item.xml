@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" >
+    
+   <ImageView android:layout_width="130dp" 
+       		  android:layout_height="96dp"
+       		  android:layout_gravity="right" 
+       		  android:layout_marginTop="10dp" 
+       		  android:src="@drawable/icon"
+   			  android:layout_marginLeft="200dp"  
+   			  android:id="@+id/result_thumbnail" 
+   			  android:contentDescription="@string/Thumbnail" 
+   			  android:layout_alignParentRight="true" />
+    
+    
+         
+  	<TextView android:text="@string/Title" 
+  	    	  android:layout_width="200dp" 
+  	    	  android:layout_marginLeft="10dp"
+  	    	  android:layout_marginTop="10dp"
+  			  android:layout_height="35dp" 
+  			  android:id="@+id/result_title" 
+  			  android:layout_gravity="left|top" 
+  			  android:textSize="15dp"
+  			  android:textStyle="bold" 
+  			  android:layout_alignParentTop="true" />
+  
+  	<TextView android:text="@string/Description" 
+  	    	  android:layout_width="200dp" 
+  	    	  android:textSize="10dp" 
+  			  android:layout_below="@+id/result_title" 
+  			  android:layout_marginLeft="10dp" 
+  			  android:layout_gravity="left"
+   			  android:layout_height="25dp" 
+   			  android:id="@+id/result_desc" />
+  	
+  	<RatingBar android:id="@+id/video_rating" 
+  	    	   android:layout_width="wrap_content" 
+  	    	   android:layout_height="wrap_content" 
+  	    	   android:layout_gravity="left"
+  	    	   android:layout_below="@+id/result_desc" 
+    		   android:layout_marginLeft="10dp"
+    		   android:layout_marginTop="10dp" 
+    		   android:isIndicator="true" 
+			   android:progressDrawable="@drawable/ratingbar" 
+			   android:stepSize="0.5" 
+			   android:numStars="5" />
+   
+    <TextView android:text="@string/Views" 
+        	  android:layout_width="wrap_content"  
+        	  android:layout_marginTop="100dp" 
+     		  android:layout_marginLeft="10dp" 
+     		  android:layout_gravity="left" 
+     		  android:layout_below="@drawable/ratingbar" 
+     		  android:textSize="10dp" 
+     		  android:layout_height="wrap_content" 
+     		  android:id="@+id/result_views" />
+ </RelativeLayout>
+
